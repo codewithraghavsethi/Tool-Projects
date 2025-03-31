@@ -1,0 +1,21 @@
+.moon-icon{
+    width: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    height: 70px;
+    width: 100%;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+}
+.nav li{
+    text-decoration: none;
+}

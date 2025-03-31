@@ -1,0 +1,25 @@
+.home-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 520px;
+    width: 100%;
+    /* background-color: pink; */
+}
+
+.home-box h1, h2, p, button{
+    margin: 10px;
+}
+
+.home-box p{
+    width: 400px;
+}
+
+.home-box button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
