@@ -28,7 +28,7 @@ const Navbar = () => {
         <li>Services</li>
         <li>Career</li>
         <li>Contact</li>
-        <div className="moon-icon" onClick={change}>
+        <div className="mode-icon" onClick={change}>
               {mode === "light-mode" ? <img src={assets.moon} /> : <img src={assets.sun} />} 
         </div>
       </ul>
