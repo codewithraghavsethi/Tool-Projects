@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+
+.dark h1{
+    color: white;
+}
+
+div{
+    background-color: black;
+}
+
+.dark div{
+    background-color: blueviolet;
+}

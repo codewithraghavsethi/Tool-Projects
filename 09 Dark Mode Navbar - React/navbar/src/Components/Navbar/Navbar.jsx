@@ -23,7 +23,8 @@ const Navbar = ({theme, setTheme}) => {
           <li>Products</li>
           <li>Features</li>
           <li><Link to="/about">About</Link></li>
-          <Link></Link>
+          <li><Link to={"/services"}>Services</Link></li>
+          <li><Link to={"/contact"}>Contact</Link></li>
         </ul>
         <div className="search-box">
           <input type="text" placeholder="Search" />
